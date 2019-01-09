@@ -68,7 +68,7 @@ class MusicListComponent extends PolymerElement {
   }
   songsRecovered(event){
     this.set("songsList",event.detail.response.tracks);
-    console.log(this.songsList);
+   
   }
 
   errorSongs(event){
